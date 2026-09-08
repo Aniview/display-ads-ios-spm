@@ -30,7 +30,7 @@ let package = Package(
         .binaryTarget(
             name: "DisplayAdsSDK",
             url:
-                "https://github.com/Aniview/display-ads-ios-spm/releases/download/v\(artifactVersion)/display-ads-ios-sdk.zip",
+                "https://github.com/Aniview/display-ads-ios-spm/releases/download/v\(artifactVersion)/DisplayAds.zip",
             checksum: "e20ddb408e945d70333423c393ecf352c70bd0ee064c9e4d13cdf73f70fc4a39"
         )
     ]
