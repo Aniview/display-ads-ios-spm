@@ -31,7 +31,7 @@ let package = Package(
             name: "DisplayAdsSDK",
             url:
                 "https://github.com/Aniview/display-ads-ios-spm/releases/download/v\(artifactVersion)/DisplayAds.zip",
-            checksum: "e20ddb408e945d70333423c393ecf352c70bd0ee064c9e4d13cdf73f70fc4a39"
+            checksum: "c7d1f647f2671ee2a7c4df50ab96ddf62363e7d8dc23d753962adef79094ffe9"
         )
     ]
 )
