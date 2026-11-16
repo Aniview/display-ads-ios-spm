@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-private let artifactVersion = "1.1.0"
+private let artifactVersion = "1.2.0"
 
 let package = Package(
     name: "display-ads-ios-spm",
@@ -31,7 +31,7 @@ let package = Package(
             name: "DisplayAdsSDK",
             url:
                 "https://github.com/Aniview/display-ads-ios-spm/releases/download/v\(artifactVersion)/DisplayAds.zip",
-            checksum: "0dcec99d1b5ff101f1048c14ce275b99d87299722ca1ff31e12623ef4f0ecacc"
+            checksum: "59da403558f7ddf68e5409e1f3fe686a8494fbeae16a3f90e19c362fb8578362"
         )
     ]
 )
