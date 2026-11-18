@@ -4,6 +4,7 @@ Display ads SDK for AdPlayerLite iOS.
 
 ## Requirements
  * iOS >= 15.0
+ * AdPlayerLite >= 1.15.0 (resolved automatically by SPM)
 
 ## Integration
 
@@ -18,7 +19,7 @@ https://github.com/Aniview/display-ads-ios-spm.git
 
 ```swift
 import AdPlayerLite
-import DisplayAdsSDK
+import DisplayAds
 
 // At app launch, register the display ads provider:
 AdPlayer.setDisplayProvider(DisplayAdsProvider())

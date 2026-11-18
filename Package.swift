@@ -16,6 +16,8 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
                  from: "13.0.0"),
+        .package(url: "https://github.com/Aniview/ad-player-lite-ios-spm.git",
+                 from: "1.15.0"),
     ],
     targets: [
         .target(
@@ -24,6 +26,8 @@ let package = Package(
                 .target(name: "DisplayAdsSDK"),
                 .product(name: "GoogleMobileAds",
                          package: "swift-package-manager-google-mobile-ads"),
+                .product(name: "AdPlayerLite",
+                         package: "ad-player-lite-ios-spm"),
             ],
             path: "PlaceHolder"
         ),
